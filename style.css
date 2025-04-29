@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* Event Handling Styles */
+.hoverable {
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.hoverable:hover {
+    background-color: skyblue;
+    color: white;
+    border: 2px solid red;
+}
+
+/* Interactive Elements Styles */
+#changeTextButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.image-gallery {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.gallery-controls button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.tabs-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.tab-buttons {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.tab-buttons button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+    margin-right: 5px;
+}
+
+.tab-buttons button.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    display: none;
+    padding: 15px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Form Validation Styles */
+form {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
+}
